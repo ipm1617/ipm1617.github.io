@@ -1,0 +1,13 @@
+/* CSS */
+
+.justify p, li, ul {
+  text-align: justify;
+}
+
+.true {
+    color: green;
+}
+
+.false {
+    color: red;
+}
