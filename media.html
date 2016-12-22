@@ -31,18 +31,46 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script>
-    
-    function setMedia() {
-    var s = document.getElementById("ifr1");
-    s.value = "15.5 valores";
-    alert(document.getElementById("ifr1").value);
-}
-
+    <script type="text/javascript">
+    function setMedia(){
+        alert("Média guardada!");
+    }
     </script>
 
-
     <style>
+	html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
         body {
             background-image: url("wll.jpg");
             background-repeat: no-repeat;
@@ -88,7 +116,8 @@
 </head>
 
 <body>
-
+	<div id="container">
+	<div id="demo">
     <div class="container">
 
         <!-- The justified navigation menu is meant for single line per list item.
@@ -478,12 +507,13 @@
         <!-- Example row of columns -->
     
     <!-- Site footer -->
+	<div class="container" id="footer">
     <hr>
 
       <footer>
         <div class="row">
             <div class="col-md-4">
-                <a href="#"><p style="text-align:left">Contactos</p></a>
+                <a href="contactos.html"><p style="text-align:left">Contactos</p></a>
             </div>
         
             <div class="col-md-4">
@@ -512,7 +542,7 @@
                     </div>
                 </div>
             </div>
-      </div></footer>
+      </div></footer></div></div></div>
       </div>
 
 
